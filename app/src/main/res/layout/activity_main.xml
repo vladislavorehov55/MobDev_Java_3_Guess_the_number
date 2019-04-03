@@ -17,7 +17,8 @@
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/try_to_guess" />
+                android:text="@string/try_to_guess"
+                android:textSize="20dp" />
         </TableRow>
 
         <TableRow
@@ -42,6 +43,17 @@
                 android:layout_height="wrap_content"
                 android:onClick="onClick"
                 android:text="@string/input_value" />
+        </TableRow>
+        <TableRow>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "@string/exit"
+                />
         </TableRow>
     </TableLayout>
 
